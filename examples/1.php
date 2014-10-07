@@ -10,7 +10,7 @@
 	if(isset($_GET["code"])) {
 		$facebook->getAccessTokenFromCode("https://example.com/facebook-login/1.php");
 		$_SESSION["fb_token"] = $facebook->accessToken();
-	} elseif(isset($_GET["PATH_INFO"])) {
+	} elseif(isset($_GET["logout"])) {
 		if(isset($_SESSION["fb_token"])) unset($_SESSION["fb_token"]);
 	} else {
 		// Restore the access token if it exists.
