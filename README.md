@@ -1,6 +1,6 @@
 facebook-simple-login
 =====================
 
-A small and easy-to-use PHP script for adding Facebook Login to your website.
+__Moved to samuelthomas2774/oauth-client__
 
-This script is currently in development, more will be here soon!
+This has moved to the [oauth-client](https://github.com/samuelthomas2774/oauth-client) repository, with support for more OAuth 2.0 providers.
